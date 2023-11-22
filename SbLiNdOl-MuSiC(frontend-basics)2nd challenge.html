@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form e input fields</fieldset></title>
+</head>
+<body bgcolor="green" style="color: rgb(0, 0, 0);">
+    <h1>Iscriviti a SbLiNdOl-MuSiC</h1>
+    <h3>Il nuovo servizio di Streaming per la tua <span style="color: gold;">SblindolMusic</span></h3>
+    <div>
+        <input type="text" placeholder="Il tuo nome"
+    </div>
+    <div>
+        <input type="text" placeholder="Il tuo cognome"
+    </div>
+    <div>
+        <input type="text" placeholder="La tua data di nascita"
+    </div>
+    <div>
+        <input type="email" placeholder="indirizzo Email"
+    </div>
+    <div>
+        <input type="password" placeholder="Password"
+    </div>
+    <div>
+        <input type="password" placeholder="Ripeti la tua Password"
+    </div>
+    <div>
+        <input type="number" placeholder="Inserisci il tuo cellulare"
+    </div>
+    <fieldset>
+    <form onsubmit="alert('SblindolInO eseguito')">
+        <legend>Scegli il tuo genere musicale preferito:</legend>
+      
+        <div>
+          <input type="checkbox" id="Punk" name="Punk" checked />
+          <label for="Punk">Punk</label>
+        </div>
+      
+        <div>
+          <input type="checkbox" id="Rock" name="Rock" />
+          <label for="Rock">Rock</label>
+        </div>  
+
+        <div>
+          <input type="checkbox" id="Classic" name="Classic" checked />
+          <label for="Classic">Classic</label>
+        </div>
+          
+        <div>
+            <input type="checkbox" id="Jazz" name="Jazz" checked />
+            <label for="Jazz">Jazz</label>
+          </div>
+      
+            
+        <div>
+            <input type="checkbox" id="Pop" name="Pop" checked />
+            <label for="Pop">Pop</label>
+          </div>  
+      </fieldset>
+      <div>
+        <input type="radio" id="contract" name="tec" checked />
+        <label for="">accettazione dei termini e condizioni per la SbLiNdOl-MuSiC SPA</label>
+      </div>
+    <h4 style="color: gold;">PREMERE AVVIO PER AVVIARE LO SbLiNdOl-MuSiC</h4>
+    <form>
+        <input type="submit" value="Avvio dello SblindolInO" accesskey="enter" /> 
+    </form>
+    <h4 style="color: rgb(104, 64, 0);">IN CASO TU NON VOGLIA SBLINDOLARE CON NOI SAI COSA FARE.</h4>
+    <form>
+        <button onclick="alert('Ci dispiace che tu non voglia provare lo SbLiNdOl-MuSiC')">NON VOGLIO SBLINDOLARE</button>
+    </form>
+</body>
+</html>
