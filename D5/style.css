@@ -95,5 +95,5 @@ body {
     display: flex;
     align-items: center;
     padding: 2em;
-    justify-content: space-around;
+    justify-content: space-between;
 }
